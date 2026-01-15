@@ -116,5 +116,15 @@ button{
     border-radius: 5px;
     background-color: rgb(34, 209, 248);
     cursor: pointer;
+    transition: all 0.3s ease;
     z-index: 1;
+}
+
+button:hover{
+    transform: scale(1.05);
+}
+
+button:active{
+    transform: scale(0.95);
+    opacity: 0.6;
 }
