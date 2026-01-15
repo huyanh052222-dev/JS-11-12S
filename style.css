@@ -26,6 +26,16 @@ body{
             cursor: pointer;
         }
     }
+    @media screen and (max-width: 500px) {
+        .heading{
+            font-size: 54px;
+        }
+    }
+    @media screen and (max-width: 420px) {
+        .heading{
+            font-size: 40px;
+        }
+    }
     .heading:hover {
         span:hover{
             color: rgb(251, 90, 90);
